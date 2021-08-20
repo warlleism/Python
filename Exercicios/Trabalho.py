@@ -1,0 +1,12 @@
+pagamento = float(input('Quanto você ganha por hora? '))
+horas = float(input('Número de horas trabalhadas? '))
+salario = pagamento * horas
+desconto = salario - (salario * 24/100)
+inss = salario / 100 * 8
+sindicato =  salario / 100 * 5
+impostoRenda = salario / 100 * 11
+print('Seu salário bruto no mês = {:.2f}R$'.format(salario))
+print('Destinado ao INSS  = {:.2f}R$'.format(inss))
+print('Destinado ao sindicato  = {:.2f}R$'.format(sindicato ))
+print('Destinado ao Imposto de renda = {:.2f}R$'.format(impostoRenda))
+print('Seu salário liquído no mês = {:.2f}R$'.format(desconto))
