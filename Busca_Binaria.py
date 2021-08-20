@@ -1,6 +1,4 @@
-"""Busca Binária
-    A lista obrigatóriamente deve ser ORDENADA
-"""
+#Busca Binária
 
 minha_lista = [11,23,32,45,56,67,78,57,1,3,7,5,4,59,68,35,24,34,465,76,24,34,62,12,41,42,43,54,65,120,102,150,104,200,3025,203,506,450]
 
